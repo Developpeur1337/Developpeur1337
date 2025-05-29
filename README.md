@@ -11,6 +11,7 @@
 ### 🚀 Mes projets publics
 - [🔒 Blacklist Bot YUKA](https://github.com/Developpeur1337/Blacklist-bot-YUKA) – Un bot Discord full slash pour gérer une blacklist
 - [🚧 Anti Fast YUKA](https://github.com/Developpeur1337/Anti-Fast-YUKA) – Un bot Discord full slash pour éviter les DC / comptes créés trop récemment
+- [💎 Bot Staff Sayonara](https://github.com/Developpeur1337/Bot-staff-Sayonara) – Bot staff full slash polyvalent pour la gestion des sanctions, commandes utilitaires et modération.
 
 ---
 
