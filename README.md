@@ -12,6 +12,7 @@
 - [🔒 Blacklist Bot YUKA](https://github.com/Developpeur1337/Blacklist-bot-YUKA) – Un bot Discord full slash pour gérer une blacklist
 - [🚧 Anti Fast YUKA](https://github.com/Developpeur1337/Anti-Fast-YUKA) – Un bot Discord full slash pour éviter les DC / comptes créés trop récemment
 - [💎 Bot Staff Sayonara](https://github.com/Developpeur1337/Bot-staff-Sayonara) – Bot staff full slash polyvalent pour la gestion des sanctions, commandes utilitaires et modération.
+- [👀 Bot Stalk Role](https://github.com/Developpeur1337/Stalk-role) – Bot staff full slash qui détecte et log chaque ajout de rôle spécifique en indiquant qui a donné quel rôle, à qui et quand.
 
 ---
 
