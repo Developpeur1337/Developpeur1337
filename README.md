@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://imgur.com/a/IOmS1n0" alt="banner" width="100%" />
+  <img src="https://i.imgur.com/Eu4DEOU.gif" alt="banner" width="100%" />
 </p>
 
 <h1 align="center">Salut 👋, moi c’est Developpeur1337</h1>
