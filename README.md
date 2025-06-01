@@ -17,6 +17,7 @@
 - [🚧 Anti Fast YUKA](https://github.com/Developpeur1337/Anti-Fast-YUKA) – Un bot Discord full slash pour éviter les DC / comptes créés trop récemment
 - [💎 Bot Staff Sayonara](https://github.com/Developpeur1337/Bot-staff-Sayonara) – Bot staff full slash polyvalent pour la gestion des sanctions, commandes utilitaires et modération.
 - [👀 Bot Stalk Role](https://github.com/Developpeur1337/Stalk-role) – Bot staff full slash qui détecte et log chaque ajout de rôle spécifique en indiquant qui a donné quel rôle, à qui et quand.
+- [🛡️ Bot Renew Tropico ](https://github.com/Developpeur1337/Renew-tropico) – Bot full slash qui permet de recréer un salon dans une catégorie autorisée, en conservant ses paramètres d’origine, via une commande sécurisée.
 
 ---
 
