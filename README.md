@@ -35,6 +35,7 @@
 
 ### 📫 Me contacter
 - Discord : **developpeur1337**
+- Telegram : **@developper1337**
 
 ---
 
