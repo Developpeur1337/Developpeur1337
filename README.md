@@ -20,6 +20,7 @@
 - [🛡️ Bot Renew Tropico ](https://github.com/Developpeur1337/Renew-tropico) – Bot full slash qui permet de recréer un salon dans une catégorie autorisée, en conservant ses paramètres d’origine, via une commande sécurisée.
 - [🌌 Bot Vocal Utilitaire ](https://github.com/Developpeur1337/bot-vocal) – Bot full slash qui permet la gestion vocale, offrant des commandes pour localiser, déplacer, rejoindre ou réveiller des membres en salon vocal.
 - [🔑 Bot Secure Role ](https://github.com/Developpeur1337/secure-role) – Bot full slash qui protège contre l’ajout non autorisé de rôles sécurisés avec gestion interactive via boutons.
+- [💌 Bot Confession ](https://github.com/Developpeur1337/Confess-bot) – Bot anonyme permettant aux membres d’envoyer librement et en toute confidentialité leurs confessions dans un salon dédié.
 
 ---
 
