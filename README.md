@@ -21,7 +21,7 @@
 - [🌌 Bot Vocal Utilitaire ](https://github.com/Developpeur1337/bot-vocal) – Bot full slash qui permet la gestion vocale, offrant des commandes pour localiser, déplacer, rejoindre ou réveiller des membres en salon vocal.
 - [🔑 Bot Secure Role ](https://github.com/Developpeur1337/secure-role) – Bot full slash qui protège contre l’ajout non autorisé de rôles sécurisés avec gestion interactive via boutons.
 - [💌 Bot Confession ](https://github.com/Developpeur1337/Confess-bot) – Bot anonyme permettant aux membres d’envoyer librement et en toute confidentialité leurs confessions dans un salon dédié.
-- [➕ Bot Bienvenue ](https://github.com/Developpeur1337/welcome-bot) – Bot qui accueille automatiquement les nouveaux membres avec un message de bienvenue.
+- [➕ Bot Bienvenue ](https://github.com/Developpeur1337/welcome-bot) – Bot qui accueille les nouveaux membres et gère les ghostpings.
 
 ---
 
