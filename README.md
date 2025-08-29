@@ -16,12 +16,12 @@
 - [🔒 Blacklist Bot YUKA](https://github.com/Developpeur1337/Blacklist-bot-YUKA) – Un bot Discord full slash pour gérer une blacklist
 - [🚧 Anti Fast YUKA](https://github.com/Developpeur1337/Anti-Fast-YUKA) – Un bot Discord full slash pour éviter les DC / comptes créés trop récemment
 - [💎 Bot Staff Sayonara](https://github.com/Developpeur1337/Bot-staff-Sayonara) – Bot staff full slash polyvalent pour la gestion des sanctions, commandes utilitaires et modération.
-- [👀 Bot Stalk Role](https://github.com/Developpeur1337/Stalk-role) – Bot staff full slash qui détecte et log chaque ajout de rôle spécifique en indiquant qui a donné quel rôle, à qui et quand.
+- [👀 Bot Stalk Role](https://github.com/Developpeur1337/Stalk-role) – Bot full slash qui détecte et log chaque ajout de rôle spécifique en indiquant qui a donné quel rôle, à qui et quand.
 - [🛡️ Bot Renew Tropico ](https://github.com/Developpeur1337/Renew-tropico) – Bot full slash qui permet de recréer un salon dans une catégorie autorisée, en conservant ses paramètres d’origine, via une commande sécurisée.
 - [🌌 Bot Vocal Utilitaire ](https://github.com/Developpeur1337/bot-vocal) – Bot full slash qui permet la gestion vocale, offrant des commandes pour localiser, déplacer, rejoindre ou réveiller des membres en salon vocal.
 - [🔑 Bot Secure Role ](https://github.com/Developpeur1337/secure-role) – Bot full slash qui protège contre l’ajout non autorisé de rôles sécurisés avec gestion interactive via boutons.
-- [💌 Bot Confession ](https://github.com/Developpeur1337/Confess-bot) – Bot anonyme permettant aux membres d’envoyer librement et en toute confidentialité leurs confessions dans un salon dédié.
-- [➕ Bot Bienvenue ](https://github.com/Developpeur1337/welcome-bot) – Bot qui accueille les nouveaux membres et gère les ghostpings.
+- [💌 Bot Confession ](https://github.com/Developpeur1337/Confess-bot) – Bot full slash anonyme permettant aux membres d’envoyer librement et en toute confidentialité leurs confessions dans un salon dédié.
+- [➕ Bot Bienvenue ](https://github.com/Developpeur1337/welcome-bot) – Bot full slash qui accueille les nouveaux membres et gère les ghostpings.
 
 ---
 
