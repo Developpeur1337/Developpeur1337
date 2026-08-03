@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="16" viewBox="0 0 1200 16" fill="none" role="presentation">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset=".28" stop-color="#8B5CF6" stop-opacity=".85"/>
+      <stop offset=".55" stop-color="#3B82F6" stop-opacity=".9"/>
+      <stop offset=".78" stop-color="#22D3EE" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#22D3EE" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".95"/>
+    </linearGradient>
+    <filter id="dg" x="-50%" y="-400%" width="200%" height="900%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <style>
+    .pulse{animation:run 6s cubic-bezier(.55,0,.45,1) infinite}
+    @keyframes run{0%{transform:translateX(-180px);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(1220px);opacity:0}}
+    .tick{animation:tk 6s ease-in-out infinite}
+    @keyframes tk{0%,100%{opacity:.25}50%{opacity:.7}}
+    @media (prefers-reduced-motion:reduce){.pulse,.tick{animation:none}.pulse{opacity:0}}
+  </style>
+  <line x1="0" y1="8" x2="1200" y2="8" stroke="url(#dl)" stroke-width="1.4" opacity=".55"/>
+  
+  <g class="pulse">
+    <rect x="0" y="7.2" width="170" height="2" fill="url(#dp)" filter="url(#dg)" opacity=".7"/>
+    <rect x="0" y="7.2" width="170" height="1.6" fill="url(#dp)"/>
+  </g>
+</svg>

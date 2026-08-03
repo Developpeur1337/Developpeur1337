@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="104" viewBox="0 0 520 104" fill="none" role="img" aria-label="Discord 1363989112255938570">
+  <title>Discord — 1363989112255938570</title>
+  <defs>
+    <linearGradient id="dBg" x1="0" y1="0" x2="520" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171A2E"/><stop offset=".5" stop-color="#101427"/><stop offset="1" stop-color="#0C1020"/>
+    </linearGradient>
+    <linearGradient id="dStroke" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#5865F2"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="dShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dHalo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#5865F2" stop-opacity=".4"/><stop offset="1" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="dClip"><rect x="6" y="6" width="508" height="92" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .ds{font-family:Inter,"Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+    .dm{font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+    .shine{animation:shine 5s ease-in-out infinite}
+    @keyframes shine{0%{transform:translateX(-300px)}55%,100%{transform:translateX(640px)}}
+    .halo{animation:halo 3.4s ease-in-out infinite}
+    @keyframes halo{0%,100%{opacity:.3}50%{opacity:.8}}
+    .arw{animation:arw 2.4s ease-in-out infinite}
+    @keyframes arw{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+    .brd{stroke-dasharray:200 1000;animation:brd 6.5s linear infinite}
+    @keyframes brd{to{stroke-dashoffset:-1200}}
+    .on{animation:on 2.6s ease-in-out infinite}
+    @keyframes on{0%,100%{opacity:.45}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.shine,.halo,.arw,.brd,.on{animation:none}.shine{opacity:0}}
+  </style>
+  <ellipse class="halo" cx="260" cy="52" rx="220" ry="48" fill="url(#dHalo)"/>
+  <g clip-path="url(#dClip)">
+    <rect x="6" y="6" width="508" height="92" rx="18" fill="url(#dBg)"/>
+    <g class="shine"><rect x="0" y="-20" width="190" height="150" fill="url(#dShine)" transform="skewX(-18)"/></g>
+  </g>
+  <rect x="6.5" y="6.5" width="507" height="91" rx="17.5" fill="none" stroke="url(#dStroke)" stroke-opacity=".55" stroke-width="1.3"/>
+  <rect class="brd" x="6.5" y="6.5" width="507" height="91" rx="17.5" fill="none" stroke="#22D3EE" stroke-width="1.6" stroke-linecap="round" opacity=".85"/>
+
+  <g transform="translate(36,38)" fill="#8B93F8">
+    <path d="M23.7 2.6A22 22 0 0 0 18.2.9a16 16 0 0 0-.7 1.5 20.5 20.5 0 0 0-6.1 0A15 15 0 0 0 10.6.9 22 22 0 0 0 5.1 2.6C1.6 7.8.7 12.9 1.2 17.9a22.3 22.3 0 0 0 6.7 3.4c.5-.7 1-1.5 1.4-2.3-.8-.3-1.5-.6-2.2-1l.5-.4a15.9 15.9 0 0 0 13.6 0l.6.4c-.7.4-1.5.8-2.3 1 .4.8.9 1.6 1.4 2.3a22.2 22.2 0 0 0 6.7-3.4c.6-5.8-.9-10.9-3.9-15.3ZM10.3 14.8c-1.3 0-2.4-1.2-2.4-2.7s1.1-2.7 2.4-2.7 2.4 1.2 2.4 2.7-1 2.7-2.4 2.7Zm8.2 0c-1.3 0-2.4-1.2-2.4-2.7s1-2.7 2.4-2.7 2.4 1.2 2.4 2.7-1 2.7-2.4 2.7Z"/>
+  </g>
+
+  <text class="dm" x="82" y="44" fill="#7D8899" font-size="10.5" letter-spacing="2.4">DISCORD · ID</text>
+  <text class="dm" x="82" y="70" fill="#EDF1F7" font-size="17" letter-spacing="1.2">1363989112255938570</text>
+
+  <g transform="translate(452,46)">
+    <circle class="on" cx="0" cy="0" r="3.2" fill="#22D3EE"/>
+  </g>
+  <g class="arw" transform="translate(468,46)">
+    <path d="M0 0h12m0 0-4.5-4.5M12 0l-4.5 4.5" stroke="#22D3EE" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

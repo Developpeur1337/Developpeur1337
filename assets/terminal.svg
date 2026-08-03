@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="290" viewBox="0 0 620 290" fill="none" role="img" aria-label="whoami">
+  <title>whoami</title>
+  <defs>
+    <linearGradient id="tHead" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10131F"/><stop offset="1" stop-color="#0B0E18"/>
+    </linearGradient>
+    <linearGradient id="tEdge" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="tGlow" cx=".5" cy="0" r=".85">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity=".18"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tWin"><rect width="620" height="290" rx="14"/></clipPath>
+    <clipPath id="c1"><rect class="r1" x="40" y="98" width="72" height="22"/></clipPath>
+    <clipPath id="c2"><rect class="r2" x="40" y="132" width="288" height="22"/></clipPath>
+    <clipPath id="c3"><rect class="r3" x="40" y="166" width="450" height="22"/></clipPath>
+    <clipPath id="c4"><rect class="r4" x="40" y="200" width="414" height="22"/></clipPath>
+  </defs>
+
+  <style>
+    .m{font-family:ui-monospace,"SFMono-Regular","JetBrains Mono",Menlo,Consolas,monospace;font-size:15px}
+    .dim{fill:#4B5568}.p{fill:#22D3EE}.v{fill:#A78BFA}.w{fill:#DCE3EC}.ok{fill:#34D399}.b{fill:#60A5FA}
+    .r1,.r2,.r3,.r4{transform:scaleX(0)}
+    .r1{transform-origin:40px 0;animation:t1 11s steps(8) infinite}
+    .r2{transform-origin:40px 0;animation:t2 11s steps(32) infinite}
+    .r3{transform-origin:40px 0;animation:t3 11s steps(50) infinite}
+    .r4{transform-origin:40px 0;animation:t4 11s steps(46) infinite}
+    @keyframes t1{0%{transform:scaleX(0)}10%{transform:scaleX(1)}96%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @keyframes t2{0%,16%{transform:scaleX(0)}32%{transform:scaleX(1)}96%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @keyframes t3{0%,36%{transform:scaleX(0)}54%{transform:scaleX(1)}96%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @keyframes t4{0%,58%{transform:scaleX(0)}75%{transform:scaleX(1)}96%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    .cur{fill:#22D3EE;animation:blink .9s step-end infinite}
+    @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+    .k1{animation:k1 11s steps(8) infinite,blink .9s step-end infinite}
+    .k4{animation:k4 11s steps(46) infinite,blink .9s step-end infinite}
+    .k5{animation:k5 11s step-end infinite,blink .9s step-end infinite}
+    @keyframes k1{0%{transform:translateX(0);visibility:visible}10%,100%{transform:translateX(72px);visibility:hidden}}
+    @keyframes k4{0%,58%{transform:translateX(0);visibility:hidden}59%{visibility:visible}75%,100%{transform:translateX(414px);visibility:hidden}}
+    @keyframes k5{0%,75%{visibility:hidden}76%,100%{visibility:visible}}
+    .ln{opacity:0;animation:none 11s step-end infinite}
+    .l1{animation-name:s1}.l2{animation-name:s2}.l3{animation-name:s3}.l4{animation-name:s4}.l5{animation-name:s5}
+    @keyframes s1{0%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes s2{0%,15%{opacity:0}16%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes s3{0%,35%{opacity:0}36%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes s4{0%,57%{opacity:0}58%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes s5{0%,75%{opacity:0}76%,100%{opacity:1}}
+    .bar{transform-origin:0 0;animation:bar 11s cubic-bezier(.4,0,.2,1) infinite}
+    @keyframes bar{0%{transform:scaleX(0)}75%,100%{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){
+      .r1,.r2,.r3,.r4,.k1,.k4,.k5,.ln,.bar{animation:none}
+      .r1,.r2,.r3,.r4{transform:scaleX(1)}.ln{opacity:1}.bar{transform:none}
+      .k1,.k4{visibility:hidden}
+    }
+  </style>
+
+  <g clip-path="url(#tWin)">
+    <rect width="620" height="290" fill="#080B12"/>
+    <rect width="620" height="180" fill="url(#tGlow)"/>
+    <rect width="620" height="44" fill="url(#tHead)"/>
+    <rect y="43" width="620" height="1" fill="#1A2133"/>
+    <circle cx="26" cy="22" r="5.5" fill="#F87171" opacity=".85"/>
+    <circle cx="46" cy="22" r="5.5" fill="#FBBF24" opacity=".85"/>
+    <circle cx="66" cy="22" r="5.5" fill="#34D399" opacity=".85"/>
+    <text class="m" x="330" y="27" fill="#6B7688" font-size="12.5" text-anchor="middle" letter-spacing="1.6">developpeur1337 — zsh</text>
+    <rect class="bar" x="0" y="288" width="620" height="2" fill="url(#tEdge)"/>
+
+    <g class="m">
+      <g class="ln l1" clip-path="url(#c1)">
+        <text x="40" y="114"><tspan class="p">$</tspan><tspan class="w" xml:space="preserve"> whoami</tspan></text>
+      </g>
+      <rect class="cur k1" x="40" y="99" width="9" height="19" opacity=".9"/>
+
+      <g class="ln l2" clip-path="url(#c2)">
+        <text x="40" y="148"><tspan class="v">»</tspan><tspan class="w" xml:space="preserve"> user </tspan><tspan class="dim">.........</tspan><tspan class="ok" xml:space="preserve"> Développeur1337</tspan></text>
+      </g>
+      <g class="ln l3" clip-path="url(#c3)">
+        <text x="40" y="182"><tspan class="v">»</tspan><tspan class="w" xml:space="preserve"> stack </tspan><tspan class="dim">........</tspan><tspan class="b" xml:space="preserve"> javascript · node.js · discord.js</tspan></text>
+      </g>
+      <g class="ln l4" clip-path="url(#c4)">
+        <text x="40" y="216"><tspan class="v">»</tspan><tspan class="w" xml:space="preserve"> focus </tspan><tspan class="dim">........</tspan><tspan class="p" xml:space="preserve"> bots discord · slash commands</tspan></text>
+      </g>
+      <rect class="cur k4" x="40" y="201" width="9" height="19" opacity=".9"/>
+
+      <g class="ln l5">
+        <text x="40" y="250"><tspan class="v">developpeur1337</tspan><tspan class="dim">@</tspan><tspan class="b">github</tspan><tspan class="dim" xml:space="preserve"> ~ </tspan><tspan class="p">$</tspan></text>
+      </g>
+      <rect class="cur k5" x="283" y="235" width="9" height="19" opacity=".9"/>
+    </g>
+    <rect x=".5" y=".5" width="619" height="289" rx="14" fill="none" stroke="#1A2133"/>
+  </g>
+</svg>
