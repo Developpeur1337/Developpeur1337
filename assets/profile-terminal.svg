@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="Terminal affichant profile.js de Developpeur1337">
+  <title>profile.js — Développeur1337</title>
+
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#22D3EE"/>
+      <stop offset="50%"  stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF2E97"/>
+    </linearGradient>
+    <radialGradient id="hazeA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hazeB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF2E97" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#FF2E97" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan2" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#FFFFFF"/>
+    </pattern>
+
+    <!-- dev1337@arch:~$ cat profile.js = 30 ch x 12 = 360 -->
+    <mask id="cmdMask">
+      <rect x="64" y="96" width="0" height="30" fill="#fff">
+        <animate attributeName="width" values="0;0;362;362;0;0"
+                 keyTimes="0;0.036;0.157;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <rect x="1" y="1" width="918" height="558" rx="16" fill="#0A0611"/>
+  <ellipse cx="120" cy="80"  rx="300" ry="200" fill="url(#hazeA)"/>
+  <ellipse cx="820" cy="500" rx="300" ry="200" fill="url(#hazeB)"/>
+  <rect x="1" y="1" width="918" height="558" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.5" opacity="0.85"/>
+
+  <path d="M1 17 a16 16 0 0 1 16 -16 h886 a16 16 0 0 1 16 16 v29 h-918 z" fill="#150C22"/>
+  <line x1="1" y1="46" x2="919" y2="46" stroke="#7C3AED" stroke-width="1" opacity="0.45"/>
+  <circle cx="28" cy="24" r="5.5" fill="#FF2E97"/>
+  <circle cx="48" cy="24" r="5.5" fill="#C084FC"/>
+  <circle cx="68" cy="24" r="5.5" fill="#22D3EE"/>
+  <text x="460" y="29" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace"
+        font-size="13" fill="#6B6785" letter-spacing="1.4">profile.js — node v22</text>
+
+  <line x1="52" y1="66" x2="52" y2="544" stroke="#241838" stroke-width="1"/>
+
+  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="20">
+
+    <g mask="url(#cmdMask)">
+      <text x="64" y="120">
+        <tspan fill="#C084FC">dev1337@arch</tspan><tspan fill="#22D3EE">:~$</tspan><tspan fill="#E6E6F0"> cat profile.js</tspan>
+      </text>
+    </g>
+    <rect y="98" width="10" height="26" fill="#FF2E97" opacity="0">
+      <animate attributeName="x" values="64;64;426;426;64" keyTimes="0;0.036;0.157;0.170;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.036;0.163;0.170;1" dur="14s" repeatCount="indefinite"/>
+    </rect>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.186;0.204;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="174" font-size="14" fill="#3D2E58">01</text>
+      <text x="64" y="174"><tspan fill="#C084FC">const</tspan><tspan fill="#E6E6F0"> developer </tspan><tspan fill="#6B6785">=</tspan><tspan fill="#E6E6F0"> {</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.204;0.222;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="208" font-size="14" fill="#3D2E58">02</text>
+      <text x="64" y="208"><tspan fill="#FF2E97">  name</tspan><tspan fill="#6B6785">:    </tspan><tspan fill="#22D3EE">"Développeur1337"</tspan><tspan fill="#6B6785">,</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.222;0.240;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="242" font-size="14" fill="#3D2E58">03</text>
+      <text x="64" y="242"><tspan fill="#FF2E97">  role</tspan><tspan fill="#6B6785">:    </tspan><tspan fill="#22D3EE">"Backend developer"</tspan><tspan fill="#6B6785">,</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.240;0.258;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="276" font-size="14" fill="#3D2E58">04</text>
+      <text x="64" y="276"><tspan fill="#FF2E97">  stack</tspan><tspan fill="#6B6785">:   [</tspan><tspan fill="#22D3EE">"Node.js"</tspan><tspan fill="#6B6785">, </tspan><tspan fill="#22D3EE">"JavaScript"</tspan><tspan fill="#6B6785">],</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.258;0.276;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="310" font-size="14" fill="#3D2E58">05</text>
+      <text x="64" y="310"><tspan fill="#FF2E97">  focus</tspan><tspan fill="#6B6785">:   [</tspan><tspan fill="#22D3EE">"APIs"</tspan><tspan fill="#6B6785">, </tspan><tspan fill="#22D3EE">"automatisation"</tspan><tspan fill="#6B6785">],</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.276;0.294;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="344" font-size="14" fill="#3D2E58">06</text>
+      <text x="64" y="344"><tspan fill="#FF2E97">  mindset</tspan><tspan fill="#6B6785">: </tspan><tspan fill="#22D3EE">"Clean code"</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.294;0.312;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="378" font-size="14" fill="#3D2E58">07</text>
+      <text x="64" y="378" fill="#E6E6F0">};</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.321;0.340;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="24" y="426" font-size="14" fill="#3D2E58">08</text>
+      <text x="64" y="426"><tspan fill="#A9A5C0">console</tspan><tspan fill="#6B6785">.</tspan><tspan fill="#C084FC">log</tspan><tspan fill="#6B6785">(</tspan><tspan fill="#22D3EE">"Building the future..."</tspan><tspan fill="#6B6785">);</tspan></text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.371;0.392;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <rect x="64" y="454" width="4" height="28" fill="#FF2E97" rx="2"/>
+      <text x="86" y="476" fill="#FF2E97" filter="url(#glow)">Building the future...</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.414;0.432;0.943;0.957;1" dur="14s" repeatCount="indefinite"/>
+      <text x="64" y="522"><tspan fill="#C084FC">dev1337@arch</tspan><tspan fill="#22D3EE">:~$</tspan></text>
+      <rect x="248" y="500" width="10" height="26" fill="#FF2E97">
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <g opacity="0.05">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 4" dur="0.9s" repeatCount="indefinite"/>
+    <rect x="1" y="-8" width="918" height="576" fill="url(#scan2)"/>
+  </g>
+</svg>

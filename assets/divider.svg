@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="50%"  stop-color="#FF2E97" stop-opacity="0.75"/>
+      <stop offset="82%"  stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FF2E97" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FF2E97" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dGlow" x="-50%" y="-400%" width="200%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="13" width="1200" height="1.6" fill="url(#rule)"/>
+
+  <rect y="12.4" width="190" height="3" rx="1.5" fill="url(#pulse)" filter="url(#dGlow)">
+    <animate attributeName="x" values="-190;1200" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="#0A0611" stroke="#7C3AED" stroke-width="1.2">
+    <rect x="560" y="8" width="80" height="12" fill="#0A0611" stroke="none"/>
+  </g>
+
+  <g filter="url(#dGlow)">
+    <rect x="594" y="8" width="12" height="12" fill="#FF2E97" transform="rotate(45 600 14)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="571" y="11" width="6" height="6" fill="#C084FC" transform="rotate(45 574 14)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" begin="-0.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="623" y="11" width="6" height="6" fill="#22D3EE" transform="rotate(45 626 14)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" begin="-0.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
