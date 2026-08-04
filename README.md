@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Développeur1337 — Développeur backend. Building things with Node.js." width="100%" />
+<img src="assets/banner.svg" alt="Développeur1337 - Développeur backend. Building things with Node.js." width="100%" />
 
 <br /><br />
 
@@ -32,7 +32,7 @@
 
 Je construis la partie du produit que personne ne voit et dont tout le monde dépend.
 
-Services backend, APIs, et l'automatisation qui supprime le travail qu'on ne devrait pas faire deux fois. Mon terrain par défaut : **Node.js** — rapide à prendre en main, honnête sur ses compromis, et assez proche de la machine pour rester intéressant.
+Services backend, APIs, et l'automatisation qui supprime le travail qu'on ne devrait pas faire deux fois. Mon terrain par défaut : **Node.js** - rapide à prendre en main, honnête sur ses compromis, et assez proche de la machine pour rester intéressant.
 
 Ce à quoi je tiens : du code qui se lit comme s'il était évident, des systèmes qui échouent bruyamment plutôt qu'en silence, et livrer quelque chose de réel plutôt que polir quelque chose d'imaginaire.
 
