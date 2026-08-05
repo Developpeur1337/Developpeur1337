@@ -120,7 +120,7 @@ En ce moment j'affûte : l'architecture, la performance, et les parties du méti
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=Developpeur1337&hide_border=true&background=0D0714&stroke=2A1F3D&ring=FF2E97&fire=FF2E97&currStreakLabel=C084FC&currStreakNum=E6E6F0&sideLabels=A9A5C0&sideNums=E6E6F0&dates=6B6785&locale=fr" alt="Série de contributions" width="70%" />
+<img src="https://streak-stats.demolab.com/?user=Developpeur1337&hide_border=true&background=0D0714&stroke=2A1F3D&ring=FF2E97&fire=FF2E97&currStreakLabel=C084FC&currStreakNum=E6E6F0&sideLabels=A9A5C0&sideNums=E6E6F0&dates=6B6785&locale=fr" alt="Série de contributions" width="70%" />
 
 <br /><br />
 
